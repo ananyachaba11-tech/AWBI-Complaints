@@ -1,0 +1,37 @@
+state_id,state_name,file_name,records,link
+1,Andaman and Nicobar Islands,andaman_and_nicobar_islands,0,https://awbi.gov.in/Cruelty?stateid=1&complaint_number=&cruelty_grievance_type=&complaint_year=
+2,Andhra Pradesh,andhra_pradesh,49,https://awbi.gov.in/Cruelty?stateid=2&complaint_number=&cruelty_grievance_type=&complaint_year=
+3,Arunachal Pradesh,arunachal_pradesh,4,https://awbi.gov.in/Cruelty?stateid=3&complaint_number=&cruelty_grievance_type=&complaint_year=
+4,Assam,assam,12,https://awbi.gov.in/Cruelty?stateid=4&complaint_number=&cruelty_grievance_type=&complaint_year=
+5,Bihar,bihar,19,https://awbi.gov.in/Cruelty?stateid=5&complaint_number=&cruelty_grievance_type=&complaint_year=
+6,Chandigarh,chandigarh,5,https://awbi.gov.in/Cruelty?stateid=6&complaint_number=&cruelty_grievance_type=&complaint_year=
+7,Chhattisgarh,chhattisgarh,5,https://awbi.gov.in/Cruelty?stateid=7&complaint_number=&cruelty_grievance_type=&complaint_year=
+8,Delhi,delhi,67,https://awbi.gov.in/Cruelty?stateid=8&complaint_number=&cruelty_grievance_type=&complaint_year=&limit=100
+9,Goa,goa,0,https://awbi.gov.in/Cruelty?stateid=9&complaint_number=&cruelty_grievance_type=&complaint_year=
+10,Gujarat,gujarat,41,https://awbi.gov.in/Cruelty?stateid=10&complaint_number=&cruelty_grievance_type=&complaint_year=
+11,Haryana,haryana,64,https://awbi.gov.in/Cruelty?stateid=11&complaint_number=&cruelty_grievance_type=&complaint_year=
+12,Himachal Pradesh,himachal_pradesh,4,https://awbi.gov.in/Cruelty?stateid=12&complaint_number=&cruelty_grievance_type=&complaint_year=
+13,Jammu and Kashmir,jammu_and_kashmir,6,https://awbi.gov.in/Cruelty?stateid=13&complaint_number=&cruelty_grievance_type=&complaint_year=
+14,Jharkhand,jharkhand,8,https://awbi.gov.in/Cruelty?stateid=14&complaint_number=&cruelty_grievance_type=&complaint_year=
+15,Karnataka,karnataka,74,https://awbi.gov.in/Cruelty?stateid=15&complaint_number=&cruelty_grievance_type=&complaint_year=
+16,Kerala,kerala,27,https://awbi.gov.in/Cruelty?stateid=16&complaint_number=&cruelty_grievance_type=&complaint_year=
+17,Ladakh,ladakh,0,https://awbi.gov.in/Cruelty?stateid=17&complaint_number=&cruelty_grievance_type=&complaint_year=
+18,Lakshadweep,lakshadweep,1,https://awbi.gov.in/Cruelty?stateid=18&complaint_number=&cruelty_grievance_type=&complaint_year=
+19,Madhya Pradesh,madhya_pradesh,28,https://awbi.gov.in/Cruelty?stateid=19&complaint_number=&cruelty_grievance_type=&complaint_year=
+20,Maharashtra,maharashtra,173,https://awbi.gov.in/Cruelty?stateid=20&complaint_number=&cruelty_grievance_type=&complaint_year=
+21,Manipur,manipur,0,https://awbi.gov.in/Cruelty?stateid=21&complaint_number=&cruelty_grievance_type=&complaint_year=
+22,Meghalaya,meghalaya,2,https://awbi.gov.in/Cruelty?stateid=21&complaint_number=&cruelty_grievance_type=&complaint_year=
+23,Mizoram,mizoram,0,https://awbi.gov.in/Cruelty?stateid=23&complaint_number=&cruelty_grievance_type=&complaint_year=
+24,Nagaland,nagaland,1,https://awbi.gov.in/Cruelty?stateid=24&complaint_number=&cruelty_grievance_type=&complaint_year=
+25,Odisha,odisha,17,https://awbi.gov.in/Cruelty?stateid=25&complaint_number=&cruelty_grievance_type=&complaint_year=
+26,Puducherry,puducherry,2,https://awbi.gov.in/Cruelty?stateid=26&complaint_number=&cruelty_grievance_type=&complaint_year=
+27,Punjab,punjab,41,https://awbi.gov.in/Cruelty?stateid=27&complaint_number=&cruelty_grievance_type=&complaint_year=
+28,Rajasthan,rajasthan,45,https://awbi.gov.in/Cruelty?stateid=28&complaint_number=&cruelty_grievance_type=&complaint_year=
+29,Sikkim,sikkim,1,https://awbi.gov.in/Cruelty?stateid=29&complaint_number=&cruelty_grievance_type=&complaint_year=
+30,Tamil Nadu,tamil_nadu,139,https://awbi.gov.in/Cruelty?stateid=30&complaint_number=&cruelty_grievance_type=&complaint_year=
+31,Telangana,telangana,46,https://awbi.gov.in/Cruelty?stateid=31&complaint_number=&cruelty_grievance_type=&complaint_year=
+32,Dadra and Nagar Haveli and Daman and Diu,dadra_and_nagar_haveli_and_daman_and_diu,1,https://awbi.gov.in/Cruelty?stateid=32&complaint_number=&cruelty_grievance_type=&complaint_year=
+33,Tripura,tripura,1,https://awbi.gov.in/Cruelty?stateid=33&complaint_number=&cruelty_grievance_type=&complaint_year=
+34,Uttarakhand,uttarakhand,21,https://awbi.gov.in/Cruelty?stateid=34&complaint_number=&cruelty_grievance_type=&complaint_year=
+35,Uttar Pradesh,uttar_pradesh,146,https://awbi.gov.in/Cruelty?stateid=35&complaint_number=&cruelty_grievance_type=&complaint_year=
+36,West Bengal,west_bengal,72,https://awbi.gov.in/Cruelty?stateid=36&complaint_number=&cruelty_grievance_type=&complaint_year=
