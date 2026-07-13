@@ -163,7 +163,7 @@ p {
 .data-summary {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 28px;
+  gap: 10px;
 
   margin: 42px 0;
 }
@@ -245,8 +245,8 @@ p {
   display: grid;
 
   grid-template-columns:
-    minmax(280px, 380px)
-    minmax(0, 1fr);
+    minmax(280px, 360px)
+    minmax(620px, 1fr);
 
   gap: clamp(70px, 8vw, 120px);
 
@@ -315,7 +315,7 @@ p {
 
 .sticky-chart-stack img {
   width: 100%;
-  max-width: 700px;
+  max-width: none;
   margin-inline: auto;
 }
 
@@ -358,7 +358,7 @@ p {
 /* Conclusion and methodology */
 
 .conclusion {
-  padding-bottom: clamp(84px, 10vw, 132px);
+  padding-bottom: clamp(0px, 2vw, 132px);
 }
 
 .methodology-note {
@@ -452,7 +452,7 @@ p {
   .data-overview,
   .story-section,
   .conclusion {
-    padding-top: 72px;
+    padding-top: 10px;
   }
 
   .limitation-note {
@@ -516,4 +516,26 @@ p {
 .highlight-harm-to-both {
   color: #5ab4ac;
   font-weight: 500;
+}
+
+.analysis-limitation-callout {
+  width: min(calc(100% - (2 * var(--page-gutter))), var(--content-width));
+
+  margin: 0px auto 64px;
+  padding: 20px 24px;
+
+  border-left: 6px solid #d8b365;
+  background: #fffaf0;
+}
+
+.analysis-limitation-callout p {
+  margin: 0;
+
+  font-size: 17px;
+  line-height: 1.58;
+}
+
+.analysis-limitation-callout strong {
+  color: #8c510a;
+  font-weight: 700;
 }
