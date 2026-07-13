@@ -1,0 +1,519 @@
+:root {
+  --page-background: #ffffff;
+  --text-primary: #202020;
+  --text-secondary: #66635f;
+
+  --accent-dark-brown: #8c510a;
+  --accent-tan: #d8b365;
+  --accent-cream: #f6e8c3;
+  --accent-pale-teal: #c7eae5;
+  --accent-teal: #5ab4ac;
+  --accent-dark-teal: #01665e;
+
+  --content-width: 800px;
+  --wide-content-width: 1120px;
+
+  --page-gutter: clamp(20px, 4vw, 56px);
+
+  --body-font:
+    "Source Sans 3", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+
+  --display-font:
+    "Kefa", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+
+  --subtitle-font:
+    "Myriad Pro", "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--page-background);
+  color: var(--text-primary);
+
+  font-family: var(--body-font);
+  font-size: 22px;
+  line-height: 1.62;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+p,
+figure,
+blockquote {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 1.35em;
+}
+
+.article-width {
+  width: min(calc(100% - (2 * var(--page-gutter))), var(--content-width));
+
+  margin-inline: auto;
+}
+
+/* Story header */
+
+.story-header {
+  padding-top: clamp(64px, 9vw, 124px);
+  padding-bottom: clamp(38px, 5vw, 64px);
+}
+
+.story-title {
+  margin: 0;
+
+  font-family: var(--display-font);
+  font-size: clamp(44px, 6.2vw, 76px);
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+}
+
+.story-deck {
+  margin: 28px 0 0;
+  color: var(--text-secondary);
+
+  font-family: var(--subtitle-font);
+  font-size: clamp(21px, 2.3vw, 27px);
+  line-height: 1.38;
+}
+
+.story-byline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 16px;
+
+  margin-top: 30px;
+
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.story-byline p,
+.story-byline time {
+  margin: 0;
+}
+
+.story-byline p {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Main article text */
+
+.story-introduction {
+  padding-top: 20px;
+}
+
+.story-introduction > p:first-child::first-letter {
+  float: left;
+
+  margin: 0.11em 0.09em 0 0;
+
+  color: var(--accent-dark-teal);
+  font-family: var(--display-font);
+  font-size: 4.1em;
+  line-height: 0.74;
+}
+
+.data-overview,
+.story-section,
+.conclusion {
+  padding-top: clamp(10px, 5vw, 40px);
+}
+
+.section-heading {
+  margin: 0 0 24px;
+
+  font-family: var(--display-font);
+  font-size: clamp(34px, 4vw, 49px);
+  font-weight: 350;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  color: var(--accent-dark-teal);
+}
+
+.section-lede {
+  margin-bottom: 0;
+
+  font-family: var(--subtitle-font);
+  font-size: clamp(23px, 2.6vw, 31px);
+  line-height: 1.4;
+}
+
+/* Data overview */
+
+.data-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+
+  margin: 42px 0;
+}
+
+.data-summary-item {
+  padding-top: 18px;
+  border-top: 3px solid var(--accent-teal);
+}
+
+.data-summary-number {
+  margin-bottom: 5px;
+
+  color: var(--accent-dark-teal);
+  font-family: var(--display-font);
+  font-size: clamp(38px, 4.3vw, 54px);
+  line-height: 1;
+}
+
+.data-summary-text {
+  margin: 0;
+
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.limitation-note {
+  margin-top: 42px;
+  padding: 28px 30px;
+
+  background: var(--accent-cream);
+}
+
+.limitation-note p {
+  margin: 0;
+
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+/* Charts */
+
+.chart-section {
+  padding-top: clamp(0px, 6vw, 90px);
+}
+
+.chart-container {
+  margin-inline: auto;
+}
+
+.wide-chart {
+  width: min(calc(100% - (2 * var(--page-gutter))), var(--content-width));
+
+  margin: 48px auto 0;
+}
+
+.standard-chart {
+  width: min(100%, 880px);
+
+  margin-top: 46px;
+  margin-bottom: 56px;
+}
+
+.chart-caption {
+  margin: 16px 0 0;
+
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+/* Scrollytelling */
+
+.section-introduction {
+  padding-bottom: 24px;
+}
+
+.scrolly-section {
+  display: grid;
+
+  grid-template-columns:
+    minmax(280px, 380px)
+    minmax(0, 1fr);
+
+  gap: clamp(70px, 8vw, 120px);
+
+  width: min(calc(100% - (2 * var(--page-gutter))), var(--wide-content-width));
+
+  margin: 0 auto;
+  padding-top: 2px;
+
+  align-items: stretch;
+}
+
+.scrolly-text {
+  min-width: 0;
+}
+
+.scrolly-step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 82vh;
+  padding: 72px 0;
+
+  color: #77736e;
+
+  transition: color 180ms ease;
+}
+.scrolly-step > p {
+  max-width: 34ch;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.55;
+}
+
+.scrolly-step > p:last-of-type {
+  margin-bottom: 0;
+}
+
+.scrolly-step p {
+  max-width: 34ch;
+  line-height: 1.55;
+}
+
+.scrolly-step.is-active {
+  color: var(--text-primary);
+}
+
+.scrolly-step p:last-of-type {
+  margin-bottom: 0;
+}
+
+.scrolly-graphic {
+  position: relative;
+  min-width: 0;
+  align-self: stretch;
+}
+
+.sticky-chart-stack {
+  position: sticky;
+  top: 8vh;
+  display: flex;
+  height: 84vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sticky-chart-stack img {
+  width: 100%;
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.mobile-chart {
+  display: none;
+}
+
+.forms-of-harm-scrolly .forms-base-step {
+  min-height: 28vh;
+  padding: 0;
+}
+
+.forms-of-harm-scrolly .forms-finding-step {
+  min-height: 82vh;
+}
+
+/* Complaint examples */
+
+.complaint-example {
+  width: 100%;
+  max-width: 34ch;
+
+  margin: 24px 0 30px;
+  padding: 18px 20px;
+
+  background: #f6e8c3;
+  border-left: 3px solid #d8b365;
+}
+
+.complaint-example p {
+  margin: 0;
+  max-width: none;
+
+  color: #314845;
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.45;
+}
+/* Conclusion and methodology */
+
+.conclusion {
+  padding-bottom: clamp(84px, 10vw, 132px);
+}
+
+.methodology-note {
+  width: 100%;
+
+  padding: clamp(64px, 8vw, 96px) var(--page-gutter);
+
+  background: var(--accent-pale-teal);
+}
+
+.methodology-content {
+  width: min(100%, var(--content-width));
+  margin-inline: auto;
+}
+
+.methodology-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Tablet and mobile */
+
+@media (max-width: 900px) {
+  body {
+    font-size: 20px;
+  }
+
+  .data-summary {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .scrolly-section {
+    display: block;
+
+    width: min(calc(100% - (2 * var(--page-gutter))), var(--content-width));
+  }
+
+  .scrolly-step {
+    min-height: auto;
+    padding: 44px 0 58px;
+
+    color: var(--text-primary);
+  }
+
+  .scrolly-graphic {
+    display: none;
+  }
+
+  .mobile-chart {
+    display: block;
+    margin: 34px 0 0;
+  }
+
+  .mobile-chart img {
+    max-height: none;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --page-gutter: 20px;
+  }
+
+  body {
+    font-size: 17px;
+    line-height: 1.58;
+  }
+
+  .story-header {
+    padding-top: 48px;
+  }
+
+  .story-title {
+    font-size: clamp(40px, 12vw, 54px);
+  }
+
+  .story-deck {
+    margin-top: 22px;
+    font-size: 20px;
+  }
+
+  .story-byline {
+    display: block;
+  }
+
+  .story-byline time {
+    display: block;
+    margin-top: 3px;
+  }
+
+  .data-overview,
+  .story-section,
+  .conclusion {
+    padding-top: 72px;
+  }
+
+  .limitation-note {
+    padding: 24px 22px;
+  }
+
+  .complaint-example {
+    padding: 20px;
+  }
+
+  .methodology-note {
+    padding-top: 58px;
+    padding-bottom: 64px;
+  }
+}
+
+.data-overview-panel {
+  padding: clamp(28px, 4vw, 42px);
+  background: var(--accent-cream);
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.data-overview-panel .section-heading {
+  margin-bottom: 22px;
+  font-size: clamp(32px, 3.5vw, 44px);
+}
+
+.data-overview-list {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.data-overview-list li {
+  margin-bottom: 0.75em;
+}
+
+.data-limitation {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(140, 81, 10, 0.28);
+  font-size: 15.5px;
+  line-height: 1.5;
+}
+
+.highlight-harm-to-dogs {
+  color: #bf812b;
+  font-weight: 500;
+}
+
+.highlight-harm-by-dogs {
+  color: #d8b365;
+  font-weight: 500;
+}
+
+.highlight-harm-to-feeders {
+  color: #35978f;
+  font-weight: 500;
+}
+
+.highlight-harm-to-both {
+  color: #5ab4ac;
+  font-weight: 500;
+}
