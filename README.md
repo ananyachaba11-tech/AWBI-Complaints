@@ -71,8 +71,6 @@ A hand-coded sample was used to validate the classifications.
 
 ### Validation Accuracy
 
-### Validation Accuracy
-
 AI classifications were evaluated against a manually coded sample.
 
 | Classification        | Accuracy |
@@ -206,7 +204,6 @@ stray_dog_ai_labels.csv
     Contains the final stray-dog complaint dataset used for the analysis.
 ```
 
-```
 
 The `state_ids` dataset must be stored in the required folder before running the national scraping workflow.
 
@@ -215,9 +212,4 @@ The `state_ids` dataset must be stored in the required folder before running the
 ## Reuse and Citation
 
 The data was scraped from the AWBI’s publicly accessible complaint portal and is being released for public use.
-
-Please cite this project if you reuse the cleaned dataset, methodology, analysis or code:
-
-> Chaba, Ananya. _What Complaints to the Animal Welfare Board of India Reveal About the Stray-Dog Conflict_. 2026.
-
-```
+Please cite this project if you reuse the cleaned dataset, methodology, analysis or code.
